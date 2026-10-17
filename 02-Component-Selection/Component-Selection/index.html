@@ -26,7 +26,7 @@
 
     
       
-        <title>Component Selection Example - EGR 304 Data Sheet Template</title>
+        <title>Component Selection - EGR 304 Data Sheet Template</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#examples" class="md-skip">
+        <a href="#component-selections" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Component Selection Example
+              Component Selection
             
           </span>
         </div>
@@ -517,7 +517,7 @@
           
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Component Selection
   </span>
   
 
@@ -528,7 +528,7 @@
         
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Component Selection
   </span>
   
 
@@ -548,35 +548,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#component-selections" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Component Selections
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -815,35 +791,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#component-selections" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Component Selections
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -870,49 +822,300 @@
   
 
 
-  <h1>Component Selection Example</h1>
+  <h1>Component Selection</h1>
 
-<h2 id="examples">Examples</h2>
-<h3 id="style-1">Style 1</h3>
-<blockquote>
-<p>This is the example found in the assignment, uses more html</p>
-</blockquote>
-<p><em>Table 1: Example component selection</em></p>
-<p><strong>External Clock Module</strong></p>
+<h2 id="component-selections">Component Selections</h2>
+<p><strong>1.Temperature / Heat Sensors x2</strong></p>
+<ol>
+<li>
+<p>TMP36GT9Z Analog Temperature Sensor
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/e6525c47-a084-449c-8da8-58c3f7febbc1" data-desc-position="bottom"><img width="200" height="200" alt="505~T-3-1~N,T~3_sml(200x200)" src="https://github.com/user-attachments/assets/e6525c47-a084-449c-8da8-58c3f7febbc1"></a></p>
+<ul>
+<li>$1.85/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/analog-devices-inc/TMP36GT9Z/820404">link to product</a></li>
+</ul>
 <table>
 <thead>
 <tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
+<th>Pros</th>
+<th>Cons</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image1.png" data-desc-position="bottom"><img alt="" src="image1.png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></td>
-<td>* Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project</td>
-<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
+<td>Active RoHS-compliant</td>
+<td>Most expensive</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image3.png" data-desc-position="bottom"><img alt="" src="image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
+<td>Outputs 10 mV/°C analog voltage (500 mV at 0°C) that sums in the AD824 op-amp</td>
+<td>Accuracy is wider than the others</td>
+</tr>
+<tr>
+<td>TO-92-3 through-hole package operating from 2.7V to 5.5V</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>External Clock Module</strong></p>
+</li>
+<li>
+<p>Microchip MCP9700A-E/TO Linear Active Thermistor IC
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/9a0344cd-94f4-4c26-b300-52b64391e9c2" data-desc-position="bottom"><img width="200" height="200" alt="150~C04-101~TO,ZB~3_sml" src="https://github.com/user-attachments/assets/9a0344cd-94f4-4c26-b300-52b64391e9c2"></a></p>
+<ul>
+<li>$0.61/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP9700A-E-TO/1212508">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>inexpensive and Most units available</td>
+<td>wider maximum error band at ±2°C from 0°C to +70°C, up to ±4°C</td>
+</tr>
+<tr>
+<td>10 mV/°C linear slope and 500 mV offset at 0°C in a through-hole TO-92-3 package</td>
+<td>Output impedance requires a high-impedance buffer or op-amp input</td>
+</tr>
+<tr>
+<td>6 µA typical operating current prevents self-heating</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Vishay NTCLE100E3103GB0 10kΩ NTC Thermistor
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/73a9cf71-761a-42d2-9417-1f93f442b2f7" data-desc-position="bottom"><img width="200" height="200" alt="NTCLE100E3103GB0_sml" src="https://github.com/user-attachments/assets/73a9cf71-761a-42d2-9417-1f93f442b2f7"></a></p>
+<ul>
+<li>$0.95/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/NTCLE100E3103GB0/773869">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>passive two-lead radial through-hole</td>
+<td>resistance curve is non-linear</td>
+</tr>
+<tr>
+<td>rapid temperature change detection</td>
+<td>suffers from continuous current self-heating</td>
+</tr>
+<tr>
+<td>Compact</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 1: Analog Devices TMP36GT9Z Analog Temperature Sensor
+<strong>Rationale:</strong> the TMP36GT9Z is calibrated at a 10 mV/°C linear voltage in an easy-to-solder TO-92-3 package with no external calibration components required</p>
+<p><strong>2. Ambient Light Sensor</strong></p>
 <ol>
 <li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image1.png" data-desc-position="bottom"><img alt="" src="image1.png"></a></p>
+<p>Advanced Photonix PDV-P8103 CdS Photoresistor
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/06c4fe64-f0c3-4da0-a85a-9c3cec274f08" data-desc-position="bottom"><img width="200" height="200" alt="MFG_PDV-P8103_sml(200x200)" src="https://github.com/user-attachments/assets/06c4fe64-f0c3-4da0-a85a-9c3cec274f08"></a></p>
 <ul>
-<li>$1/each</li>
+<li>$0.72/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>easy to solder</td>
+<td>Slower response time</td>
+</tr>
+<tr>
+<td>communicates with ADC pin using a pull-down resistor</td>
+<td>Contains cadmium sulfide</td>
+</tr>
+<tr>
+<td>Spectral response peaks at 520 nm</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Vishay TEPT4400 Ambient Light Phototransistor
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/09c0ceac-12de-4fa4-a260-7de4ffd32034" data-desc-position="bottom"><img width="200" height="200" alt="VISHAY^SEMICONDUCTORS-TEPT4400_sml(200x200)" src="https://github.com/user-attachments/assets/09c0ceac-12de-4fa4-a260-7de4ffd32034"></a></p>
+<ul>
+<li>$0.50/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TEPT4400/1681191">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inexpensive,and RoHS-compliant through-hole</td>
+<td>leads require correct orientation on the PCB</td>
+</tr>
+<tr>
+<td>photocurrent output relative to ambient illuminance</td>
+<td>more directional than a flat photoresistor</td>
+</tr>
+<tr>
+<td>microsecond switching response</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Everlight ALS-PT19-315C/L177/TR8 SMD Light Sensor
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/af60b5c8-5484-4bf3-94a4-8a78031cb5c2" data-desc-position="bottom"><img width="200" height="200" alt="ALS-PT19_sml" src="https://github.com/user-attachments/assets/af60b5c8-5484-4bf3-94a4-8a78031cb5c2"></a></p>
+<ul>
+<li>$0.37/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/ALS-PT19-315C-L177-TR8/2675735">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Very inexpensive</td>
+<td>very difficult to hand-solder</td>
+</tr>
+<tr>
+<td>Optical filter matches human eye spectral response (630 nm peak) Slow shipping speed</td>
+<td></td>
+</tr>
+<tr>
+<td>Operates up to 5.5V</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> 1: Advanced Photonix PDV-P8103</p>
+<p><strong>Rationale:</strong> measuring light levels , a radial through-hole sensor makes it easy to assemble and solder. It works off our 5V rail using a series resistor to go straight into the microcontroller's ADC pin.</p>
+<p><strong>3. Humidity Sensor</strong></p>
+<ol>
+<li>
+<p>Adafruit 5183 (DHT20 / AHT20 4-Pin SIP Humidity Sensor)
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/74097f18-cced-4794-9b0b-f97c83c07848" data-desc-position="bottom"><img width="200" height="200" alt="MFG_1528_5183_sml" src="https://github.com/user-attachments/assets/74097f18-cced-4794-9b0b-f97c83c07848"></a></p>
+<ul>
+<li>$4.50/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/5183/15204087">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Actively produced</td>
+<td>Larger plastic housing</td>
+</tr>
+<tr>
+<td>Standard 4-pin 2.54 mm pitch through-hole footprint</td>
+<td>Requires I2C driver code in firmware</td>
+</tr>
+<tr>
+<td>Operates from 2.5V to 5.5V</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Sensirion SHT31-ARP-B Analog Humidity &amp; Temp Sensor
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/3ab75e1e-829c-47e2-91f5-f64d23d51ef1" data-desc-position="bottom"><img width="200" height="200" alt="1649~8DFN-1-2 5X2 5~~8_sml(200x200)" src="https://github.com/user-attachments/assets/3ab75e1e-829c-47e2-91f5-f64d23d51ef1"></a></p>
+<ul>
+<li>$5.00/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT31-ARP-B/5872251">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>connects directly to a microcontroller ADC pin</td>
+<td>Sensitive to flux residue</td>
+</tr>
+<tr>
+<td>High ±2% RH accuracy</td>
+<td>very difficult to hand-solder</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Honeywell HIH6130-021-001 8-SOIC Humidity Sensor IC
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/c247c208-7828-45e1-89e7-35273fcdad66" data-desc-position="bottom"><img width="200" height="200" alt="HIH-6130-021-001_sml(200x200)" src="https://github.com/user-attachments/assets/c247c208-7828-45e1-89e7-35273fcdad66"></a></p>
+<ul>
+<li>$29.07/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/HIH6130-021-001/2704701">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Very easy to hand-solder</td>
+<td>Most expensive</td>
+</tr>
+<tr>
+<td>Operates directly on 5V supply rail</td>
+<td>accuracy is slightly wider than Sensirion</td>
+</tr>
+<tr>
+<td>Outputs factory-calibrated digital</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Choice:</strong> 3.Honeywell HIH6130-021-001 8-SOIC Humidity Sensor IC</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Rationale:</strong> the 4-pin SIP DHT20 mounts into through-hole pads on our board, runsoff our 5V rail, and provides calibrated digital humidity readings</p>
+<p><strong>4. Operational Amplifier</strong> </p>
+<ol>
+<li>
+<p>Analog Devices AD824ARZ-14 Quad JFET Op-Amp
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/82c4233a-66a6-4430-ad72-268e262037ff" data-desc-position="bottom"><img width="200" height="200" alt="505~R-14~R,S~14_sml" src="https://github.com/user-attachments/assets/82c4233a-66a6-4430-ad72-268e262037ff"></a></p>
+<ul>
+<li>$20.24/each</li>
 <li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
 </ul>
 <table>
@@ -924,25 +1127,25 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Operates on a single 5V supply</td>
+<td>Very expensive per unit</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>JFET inputs draw ultra-low bias current</td>
+<td>four op-amp channels, we only need 2</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
+<td>14-SOIC package</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </li>
 <li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image3.png" data-desc-position="bottom"><img alt="" src="image3.png"></a></p>
+<p>Microchip MCP6004-I/SL Quad CMOS Op-Amp
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/6cdaac2c-9736-4b5d-bed9-3718815a4828" data-desc-position="bottom"><img width="200" height="200" alt="150~C04-065~OD,-SL~14_sml" src="https://github.com/user-attachments/assets/6cdaac2c-9736-4b5d-bed9-3718815a4828"></a></p>
 <ul>
-<li>$1/each</li>
+<li>$0.44/each but need to buy 57 minimum</li>
 <li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
 </ul>
 <table>
@@ -954,23 +1157,53 @@
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td>Very inexpensive</td>
+<td>need to buy 57 minumum</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td>Rail-to-rail input and output</td>
+<td>Lower bandwidth and slew rate</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
+<td>Low 1 pA input bias current</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Texas Instruments LM324N Quad BJT Op-Amp
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/2fb9d5ff-e20e-4952-b1ba-fb8b3f2dc786" data-desc-position="bottom"><img width="200" height="200" alt="Mfg_296~4040049~N~14_sml(200x200)" src="https://github.com/user-attachments/assets/2fb9d5ff-e20e-4952-b1ba-fb8b3f2dc786"></a></p>
+<ul>
+<li>$.58/each</li>
+<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Very inexpensive</td>
+<td>Output is not rail-to-rail</td>
+</tr>
+<tr>
+<td>Through-hole 14-DIP package is simple to solder</td>
+<td>Higher BJT input bias</td>
+</tr>
+<tr>
+<td>Wide 3V to 32V supply voltage rating</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> Option 3: Texas Instruments LM324N Quad BJT Op-Amp</p>
+<p><strong>Rationale:</strong> inexpenseive, widly avalible, and easy to solder with through hole</p>
 
 
 
