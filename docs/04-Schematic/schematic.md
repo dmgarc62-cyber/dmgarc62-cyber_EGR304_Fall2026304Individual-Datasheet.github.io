@@ -5,7 +5,11 @@ title: Schematic of a subsystem
 ## Overview
 
 This schematic is design to support The humidity sensor, hear sensors, light sensors, OP AMP, and 8 pin connector
-![THESCEMATIC](THEIMAGE.png)
+
+
+![THEIMAGE](THEIMAGE.png)
+
+
 **Figure 1:** Showing a example schematic.
 
 ## Resouces
