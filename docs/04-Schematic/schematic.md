@@ -6,7 +6,7 @@ title: Schematic of a subsystem
 
 This schematic is designed to support the humidity sensor, heat sensors, light sensors, op-amp, and 8-pin connector.
 
-![Subsystem schematic](THESCEMATIC.png)
+![Subsystem schematic](THEIMAGE.png)
 
 **Figure 1:** Example schematic.
 
