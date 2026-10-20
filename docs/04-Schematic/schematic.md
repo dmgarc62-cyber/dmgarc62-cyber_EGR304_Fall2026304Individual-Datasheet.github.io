@@ -14,4 +14,4 @@ This schematic is design to support The humidity sensor, hear sensors, light sen
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](docs/04-Schematic/SUBSYSTEM.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](SUBSYSTEM.pdf), and the Zip folder of the project [*here*](SUBSIS.zip).
