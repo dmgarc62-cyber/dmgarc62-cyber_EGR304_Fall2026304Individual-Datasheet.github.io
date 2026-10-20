@@ -114,7 +114,7 @@ title: Component Selection
     | ----------------------------------------------------------------- | ------------------- |
     | Very easy to hand-solder                                          | Most expensive      |
     | Operates directly on 5V supply rail                                 | accuracy is slightly wider than Sensirion |
-    | Outputs factory-calibrated digital|
+    | Outputs factory-calibrated digital||
 **Choice:** 3.Honeywell HIH6130-021-001 8-SOIC Humidity Sensor IC
 
 **Rationale:** the 4-pin SIP DHT20 mounts into through-hole pads on our board, runsoff our 5V rail, and provides calibrated digital humidity readings
