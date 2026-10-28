@@ -44,7 +44,7 @@ draft_docs: |
 
 plugins:
   - search
-  - glightbox
+
 
 extra_css:
   - stylesheets/extra.css
