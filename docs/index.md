@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">(Damio Garcia) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> The HEATSMITH</font><br>
 for<br>
 <font size= "5"> Team 106 </font><br>
 
