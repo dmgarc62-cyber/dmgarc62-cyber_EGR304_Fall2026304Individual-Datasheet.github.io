@@ -11,6 +11,8 @@ tags:
 This page documents the PCB design for the project. Use it to summarize the board purpose, major subsystems, and key layout decisions.
 
 ## PCB Description
+<img width="920" height="924" alt="image" src="https://github.com/user-attachments/assets/715309d5-04e1-4186-be80-389fdfaa9410" />
+<img width="910" height="903" alt="image (2)" src="https://github.com/user-attachments/assets/a0855d2e-4623-4085-b5e3-e1fec04a0a5f" />
 
 - Board function: describe what the PCB does in the system
 - Power source: indicate how the board is powered
